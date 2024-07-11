@@ -33,6 +33,7 @@ function App() {
     if (!loading) {
       setVideo('');
       setVideoName('');
+      setLoading(false);
       formRef.current.reset();
     }
   };
